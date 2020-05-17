@@ -12,14 +12,38 @@
     box-sizing: border-box;
 }
 
-nav {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    padding: 30px;
-}
-
 #logo span {
     font-family: Ngaan;
     font-size: 36px;
     font-weight: 900;
 }
+
+#nav {
+    display: grid;
+    /* grid-template-columns: 30% 70%; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* 1fr 表一分子 */
+    /* grid-template-columns: repeat(3, 100px); */
+    /* 表3格 每格100px */
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+     /* 對齊項目(垂直) */
+    text-align: center;
+    /* 對其項目(水平) */
+}
+
+#nav a {
+    /* 文字-裝飾 - 底線、刪除線 */
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+    /* 轉場：時間 */
+    transition: 0.3s;
+}
+
+/* :hover 滑入 */
+#nav a:hover {
+    color: black;
+    font-size: 22px;
+}
+
