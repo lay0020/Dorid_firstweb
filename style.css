@@ -171,9 +171,6 @@ section hr{
 }
 
 /* 聯絡我們 */
-
-
-
 #contact p {
     width: 80%;
     margin: 0 auto;
@@ -201,7 +198,7 @@ section hr{
 
 #contact input{
     text-align: center;
-    margin: 15px;
+    padding: 15px;
 }
 
 #contact input[type="sumit"]{
