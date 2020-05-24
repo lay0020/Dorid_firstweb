@@ -72,4 +72,36 @@ nav {
     background-position: center;
     /* 100vh 指的是跟螢幕一樣高 100% v h */
     height: 100vh;
+
+    display: grid;
+    color: seashell;
+    align-items: center;
+    text-align: center;
+}
+
+#banner div{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#banner div h1, #banner div h4{
+    font-family: ngaan;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.4)
+}
+
+#banner div h1{
+    font-size:140px ;
+   
+}
+
+#banner div h4{
+    font-size:50px ;
+    color: yellow;
+    
+}
+
+/* Section */
+section{
+    width: 1200px;
+    margin: 0 auto;
 }
